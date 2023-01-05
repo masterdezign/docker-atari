@@ -1,7 +1,7 @@
 # Atari Games for Deep Reinforcement Learning
 
-The repository helps to quickly prepare a Python environment for deep
-reinforcement learning and specifically Atari environment.
+The repository helps to quickly prepare an environment for deep
+reinforcement learning, specifically Atari games Gym environments.
 
 The project makes use of Docker (check the
 [tutorial](https://www.docker.com/101-tutorial/) if unfamiliar). The
@@ -9,6 +9,9 @@ The project makes use of Docker (check the
 
 
 ## How to use
+
+    git clone https://github.com/masterdezign/docker-atari
+    cd docker-atari
 
 First, you need to download
 [Roms.rar](http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html)
@@ -20,8 +23,7 @@ Next, go one level up, build and run the Docker container
     docker-atari/build.sh
     docker-atari/run.sh
 
-Within the Docker container, your current directory ./ is available from /workspace
-within the Docker container.
+Within the Docker container, your current directory ./ is available from /workspace.
 
 Test e.g. running [cleanrl](https://github.com/vwxyzjn/cleanrl) scripts.
 
