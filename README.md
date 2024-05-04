@@ -11,15 +11,6 @@ The project makes use of Docker (check the
 ## How to use
 
     git clone https://github.com/masterdezign/docker-atari
-    cd docker-atari
-
-First, you need to download
-[Roms.rar](http://www.atarimania.com/rom_collection_archive_atari_2600_roms.html)
-to current directory.
-
-Next, go one level up, build and run the Docker container
-
-    cd ..
     docker-atari/build.sh
     docker-atari/run.sh
 
